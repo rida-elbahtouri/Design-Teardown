@@ -1,0 +1,9 @@
+@import "assets/css/reset.css";
+
+nav {
+  display: flex;
+  background-color: red;
+}
+.nav-list {
+  display: flex;
+}
