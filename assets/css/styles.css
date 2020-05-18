@@ -2,8 +2,43 @@
 
 nav {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   background-color: red;
+  height: 160px;
 }
+.nav-left {
+	flex-shrink: 4;
+	border:2px solid white; 
+}
+.nav-icon {
+	float: left;
+	width: 80px;
+	height: 70px;
+}
+.logo-text {
+	left:-70px
+position: relative;
+top: -70px;
+}
+
 .nav-list {
-  display: flex;
+	border:2px solid green; 
+}
+
+.nav-ul-list li {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 16%;
+  font-weight: bold;
+  color: white;
+}
+.input-form { 
+}
+
+.input-form input[type="text"] {
+	background-image: url("");
+	width: 220px;
+	height: 40px;
+	border-radius: 10px;
 }
