@@ -4,43 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
     <title>Smashing magazine</title>
   </head>
   <body>
     <nav>
       <div class="nav-left">
+        <div><a href="#">
         <img
           class="nav-icon"
           src="https://d33wubrfki0l68.cloudfront.net/3fbf6ef77e5e00aea7a22423087373169b52ae7e/413ff/images/logo/logo.svg"
           alt="S"
-        />
-        <span class="logo-text">
-          Smashing
-          <span>magazine</span>
-        </span>
+        /></a>
       </div>
+      <div>
+        <a href="#"><span class="logo-text">
+          SMASHING
+          <p>MAGAZINE</p>
+        </span></a>
+      </div>
+    </div>
       <div class="nav-list">
         <ul class="nav-ul-list">
-          <li>Articles</li>
-          <li>Guides</li>
-          <li>Books</li>
-          <li>Events</li>
-          <li>Membership</li>
-          <li>
+          <li><a class="link-nav" href="#">Articles</a></li>
+          <li><a class="link-nav" href="#">Guides</a></li>
+          <li><a class="link-nav" href="#">Books</a></li>
+          <li><a class="link-nav" href="#">Events</a></li>
+          <li><a class="link-nav" href="#">Membership</a></li>
+          <li><a class="link-nav cat-link" href="#">
             More
             <span
-              ><img
+              ><img class="cat" 
                 src="https://d33wubrfki0l68.cloudfront.net/e3f5fe5fb4ec15257cc4137f13a0d5081b4ea5f8/aca41/images/icons/menu-cat.svg"
                 alt="cat"
             /></span>
-          </li>
+          </a></li>
         </ul>
       </div>
-      <div>
-        <form class="input-form">
-          <input type="text" placeholder="seach articles ..." />
+      <div class="nav-right">
+        <form class="form-search">
+          <input type="text" class="input-search" name="search" placeholder="Search articles ...">
+          <i class="fas fa-search"></i>
         </form>
-        
       </div>
     </nav>
   </body>
