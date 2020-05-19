@@ -1,5 +1,7 @@
 @import "./reset.css";
-
+body {
+  background-color: #f6f3f2;
+}
 a {
   text-decoration: none;
 }
@@ -144,7 +146,7 @@ section {
   top: 40px;
   background-color: white;
   display: inline;
-    z-index: 2;
+  z-index: 2;
 
   vertical-align: middle;
 }
@@ -219,8 +221,8 @@ section {
 }
 
 .list-link {
-	color: white;
-	font-weight: bold;
+  color: white;
+  font-weight: bold;
 }
 .first-sec {
   background-color: #bc3428;
@@ -238,43 +240,42 @@ section {
 }
 
 .section-header-arrow {
-	position: absolute;
-	bottom: 40px;
-	color: white;
-	font-size: 48px;
+  position: absolute;
+  bottom: 40px;
+  color: white;
+  font-size: 48px;
 }
 
 /* article section */
 
 article {
-
 }
 
 .article-grid {
-	display: grid;
-	grid-template-columns: repeat(3,1fr);
-	margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 30px;
 }
 
 .article-container {
-	height: 500px;
+  height: 500px;
 }
 
 .article-column {
-	margin-left: 40px;
-	transition: all 0.5s ;
+  margin-left: 40px;
+  transition: all 0.5s;
 }
 .article-header {
-	font-size: 32px;
-	margin-top: 20px;
-	text-decoration: underline;
-	font-weight: bold;
-	line-height: 35px;
-	margin-bottom: 30px;
+  font-size: 32px;
+  margin-top: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+  line-height: 35px;
+  margin-bottom: 30px;
 }
 
 .article-header .author-name {
-	margin-top: 50px;
+  margin-top: 50px;
 }
 
 .article-para {
@@ -284,19 +285,82 @@ article {
 }
 
 .flex-arrow {
-	display: flex;
+  display: flex;
 }
 
 .sub-flex-arrow {
-	align-items: center;
+  align-items: center;
 }
 .article-arrow {
-	color: red;
-	font-size: 36px;
-	justify-content: center;
+  color: red;
+  font-size: 36px;
+  justify-content: center;
 }
 
 .article-container:hover {
-	transform: scaleX(1.1), scaleY(1.1);
-	background-color: orange;
+  transform: scaleX(1.1);
+  background-color: white;
+}
+.members {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  margin: 5px 40px;
+  grid-gap: 20px;
+}
+
+.members-num {
+  background-color: #d33a2c;
+  grid-column: 2/3;
+  text-align: center;
+  color: white;
+  padding: 50px 10px 10px;
+  border-radius: 10px;
+}
+.singing {
+  width: 300px;
+}
+.members-num h1 a {
+  font-size: 42px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #e58980;
+  color: white;
+}
+.members-num p {
+  width: 75%;
+  font-size: 19px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+.members-num p:last-child {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.members-num button a {
+  color: #267dcc;
+}
+.members-num button a:hover {
+  color: #d33a2c;
+}
+.members-num button {
+  color: #267dcc;
+  background-color: white;
+  font-size: 20px;
+  border: 0;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.members-num button:hover a {
+  color: #d33a2c;
+}
+.links-under {
+  text-decoration: underline;
+  text-decoration-color: #e58980;
+  color: white;
 }
