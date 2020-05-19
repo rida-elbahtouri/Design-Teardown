@@ -111,14 +111,16 @@ nav {
 
 section {
   background-color: #801717;
+  position: relative;
 }
 .section-header {
   text-align: center;
   position: absolute;
   left: 50%;
-  top: 140px;
+  top: 40px;
   transform: translateX(-50%);
   font-size: 34px;
+  z-index: 2;
 }
 .section-header span {
   background-color: white;
@@ -126,6 +128,7 @@ section {
   line-height: 45px;
   font-weight: bold;
   vertical-align: middle;
+  color: #756a6a;
 }
 .section-header .sec-line {
   padding: 0 15px 15px;
@@ -138,9 +141,10 @@ section {
 .chng-color-button {
   position: absolute;
   right: 210px;
-  top: 130px;
+  top: 40px;
   background-color: white;
   display: inline;
+    z-index: 2;
 
   vertical-align: middle;
 }
@@ -164,9 +168,10 @@ section {
 }
 
 .header-author {
-  height: 400px;
+  height: 500px;
   padding-top: 80px;
   padding-left: 70px;
+  position: relative;
 }
 
 .author-img {
@@ -202,11 +207,20 @@ section {
   font-size: 18px;
 }
 .section-header-list {
+  margin-top: 50px;
   list-style: none;
 }
 
 .section-header-list li {
   display: inline-block;
+  margin-right: 20px;
+  font-size: 18px;
+  color: black;
+}
+
+.list-link {
+	color: white;
+	font-weight: bold;
 }
 .first-sec {
   background-color: #bc3428;
@@ -221,4 +235,68 @@ section {
 }
 .four-sec {
   background-color: #bc3428;
+}
+
+.section-header-arrow {
+	position: absolute;
+	bottom: 40px;
+	color: white;
+	font-size: 48px;
+}
+
+/* article section */
+
+article {
+
+}
+
+.article-grid {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	margin-top: 30px;
+}
+
+.article-container {
+	height: 500px;
+}
+
+.article-column {
+	margin-left: 40px;
+	transition: all 0.5s ;
+}
+.article-header {
+	font-size: 32px;
+	margin-top: 20px;
+	text-decoration: underline;
+	font-weight: bold;
+	line-height: 35px;
+	margin-bottom: 30px;
+}
+
+.article-header .author-name {
+	margin-top: 50px;
+}
+
+.article-para {
+  margin-top: 20px;
+  font-size: 22px;
+  line-height: 36px;
+}
+
+.flex-arrow {
+	display: flex;
+}
+
+.sub-flex-arrow {
+	align-items: center;
+}
+.article-arrow {
+	color: red;
+	font-size: 36px;
+	justify-content: center;
+}
+
+.article-container:hover {
+	transform: scaleX(1.1), scaleY(1.1);
+	background-color: orange;
 }
