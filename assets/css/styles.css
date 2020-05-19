@@ -1,27 +1,27 @@
-@import "assets/css/reset.css";
+@import "./reset.css";
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #d11313;
+  background-color: #d33a2c;
   height: 120px;
 }
 .nav-left {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 .nav-icon {
-	width: 80px;
-	height: 80px;
+  width: 80px;
+  height: 80px;
 }
 .logo-text {
-	font-size: 26px;
-	font-weight: 800;
-	color: white;
+  font-size: 26px;
+  font-weight: 800;
+  color: white;
 }
 
 .logo-text p {
@@ -31,14 +31,14 @@ nav {
 }
 
 .nav-list {
-	width: 700px;
+  width: 700px;
 }
 
 .nav-ul-list {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
 }
 
 .nav-ul-list li {
@@ -50,24 +50,23 @@ nav {
 }
 
 .link-nav {
-	color:white;
-	padding: 6px 10px;
+  color: white;
+  padding: 6px 10px;
 }
 
 .cat-link {
-	background:#c99191;
-	border-radius: 8px;
+  background: #8a2a21;
+  border-radius: 8px;
 }
 .link-nav:hover {
-	border :1px solid grey;
-	background:#a87777;
-	border-radius: 8px;
+  background: #93281f;
+  border-radius: 8px;
 }
 .cat {
- width: 25px;
- height: 22px; 
- padding-left: 7px;
- vertical-align: middle;
+  width: 25px;
+  height: 22px;
+  padding-left: 7px;
+  vertical-align: middle;
 }
 
 .form-search {
@@ -83,7 +82,7 @@ nav {
 }
 
 .input-search:focus {
-  border:1px dotted black;
+  border: 1px dotted black;
 }
 
 .fa-search {
@@ -93,61 +92,133 @@ nav {
   color: red;
 }
 ::placeholder {
-	font-size: 20px;
-	color: grey;
-	font-weight: bold;
+  font-size: 20px;
+  color: grey;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 900px) {
-	.nav-right {
-		visibility: hidden;
-	}
+  .nav-right {
+    visibility: hidden;
+  }
 
-	.nav-list {
-		flex: 2;
-	}
+  .nav-list {
+    flex: 2;
+  }
 }
 
 /* section */
 
 section {
-	background-color: #801717;
+  background-color: #801717;
 }
 .section-header {
-	text-align: center;
-	position: absolute;
-	left:40%;
-	top: 140px;
-	background-color: white;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 140px;
+  transform: translateX(-50%);
+  font-size: 34px;
 }
+.section-header span {
+  background-color: white;
+  padding: 10px;
+  line-height: 45px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.section-header .sec-line {
+  padding: 0 15px 15px;
+}
+.change-color {
+  fill: #bc3428;
+  width: 50px;
+  vertical-align: middle;
+}
+.chng-color-button {
+  position: absolute;
+  right: 210px;
+  top: 130px;
+  background-color: white;
+  display: inline;
 
+  vertical-align: middle;
+}
+.chng-color-button button {
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  margin-left: 5px;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  padding: 5px 10px;
+}
 .header-grid {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
 }
 
 .header-author {
-	height: 400px;
-	padding-top: 120px;
-	margin:0 50px;
+  height: 400px;
+  padding-top: 80px;
+  padding-left: 70px;
 }
 
 .author-img {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .author-img img {
-	height: 60px;
-	width: 60px;
-	border: 4px solid white;
-	border-radius: 5px;
+  height: 60px;
+  width: 60px;
+  border: 4px solid white;
+  border-radius: 5px;
 }
-
+.author-img h4 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 20px;
+  align-self: flex-start;
+  margin-top: 6px;
+}
+.author-img h4 span {
+  font-weight: 200;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.header-text {
+  font-size: 45px;
+  font-weight: bold;
+  width: 85%;
+  margin-top: 20px;
+}
+.section-header-comments {
+  font-size: 18px;
+}
 .section-header-list {
-	list-style: none;
+  list-style: none;
 }
 
 .section-header-list li {
-	display: inline-block;
+  display: inline-block;
+}
+.first-sec {
+  background-color: #bc3428;
+  padding-top: 180px;
+}
+.sec-sec {
+  background-color: #c7372a;
+  padding-top: 180px;
+}
+.ther-sec {
+  background-color: #b13125;
+}
+.four-sec {
+  background-color: #bc3428;
 }
