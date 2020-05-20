@@ -364,3 +364,66 @@ article {
   text-decoration-color: #e58980;
   color: white;
 }
+h1 {
+  background-color: rgb(36, 36, 36);
+}
+p {
+  background-color: gray;
+}
+.articles-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.articles-2 article {
+  width: 80%;
+}
+.articles-2 article h1 {
+  font-size: 25px;
+  padding: 10px;
+}
+.articles-2 article p:first-of-type {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px;
+}
+.articles-2 article p:last-child {
+  font-size: 20px;
+
+  padding: 10px;
+}
+.members-2 {
+  grid-column: 2/4;
+  background-color: rgb(165, 159, 159);
+  padding: 10px;
+  text-align: center;
+  width: 88%;
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(39, 39, 39);
+  margin: 10px auto;
+}
+.members-2 h1 {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+.members-2 p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.members-2 button {
+  padding: 20px;
+  font-size: 20px;
+  background-color: rgb(58, 53, 53);
+  border: 0;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.members-2 p:last-child {
+  font-size: 14px;
+}
