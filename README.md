@@ -1,17 +1,29 @@
 # Design-Teardown
 
-## New York Times
+This project is the heatmap of the smashing magazine website. In this me and my partner uses grid, flexbox to make website flexible.
 
-PROJECT: POSITIONING AND FLOATING ELEMENTS
+## Project Design
+
+Project Design Screenshot : ![Project Design](assets/img/Screenshot_Smashing_magazine.png)
 
 ## Built With
 
 - HTML5
 - CSS3
+- Google font
+
+## Original Website
+
+[Original website link](https://www.smashingmagazine.com/)
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/paulzay/nyt/7039cf7658489fedbacbc42a659162faaff2f55a/index.html)
+[Live Demo Link](https://raw.githack.com/rida-elbahtouri/Design-Teardown/features-branch/index.html)
+
+
+# Github link:
+
+For the: [Github-link](https://github.com/rida-elbahtouri/Design-Teardown/tree/features-branch)
 
 # Getting Started 🚀
 
@@ -32,11 +44,11 @@ $ cd nyt
 
 ## CONTRIBUTOR
 
-👤 \*\*\*\*
+👤 **Dipesh Kumar**
 
-- [Github]()
-- [Twitter]()
-- [Linkedin]()
+- [Github](@Dipeshtwis)
+- [Twitter](@97deepeshkumar)
+- [Linkedin](https://www.linkedin.com/in/dipesh-kumar-b6ab88134/)
 
 👤 **Rida Elbahtouri**
 
