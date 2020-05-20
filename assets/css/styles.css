@@ -1,4 +1,7 @@
 @import "./reset.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+
 body {
   background-color: #f6f3f2;
 }
@@ -363,6 +366,7 @@ section {
 }
 h1 {
   background-color: rgb(36, 36, 36);
+  font-family:"Balsamiq Sans", cursive;
 }
 p {
   background-color: gray;
@@ -584,4 +588,74 @@ button {
   list-style: circle;
   padding: 5px;
   margin-left: 15px;
+}
+
+footer {
+	background-color: grey;
+	position: relative;
+	margin-bottom: 0;
+}
+
+footer p {
+	text-align: center;
+	font-size: 18px;
+	padding-top: 50px;
+}
+.footer-list {
+	text-align: center;
+	list-style: circle;
+	margin: 30px auto;
+	width: 90%;
+}
+.footer-list li{
+	display: inline-block;
+	font-size: 20px;
+	margin:10px;
+}
+
+footer p:last-of-type {
+	width: 35%;
+	font-size: 16px;
+	margin: 0 auto;
+}
+
+.footer-list-2 {
+	margin: 30px auto 0;
+	text-align: center;
+	width: 50%;
+	padding-bottom: 20px;
+}
+
+.footer-list-2 li{
+	display: inline-block;
+	font-size: 20px;
+	margin:10px 10px;
+}
+
+.footer-circle {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	border-radius: 50%;
+	left: 80px;
+	bottom: 40px;
+	background-color: darkgrey;
+}
+
+.footer-circle-2 {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	border-radius: 50%;
+	right: 80px;
+	bottom: 40px;
+	background-color: darkgrey;
+}
+
+.lets-rotate {
+	transform: rotate(-20deg);
+}
+
+.lets-rotate:hover {
+	transform: rotate(0);
 }
