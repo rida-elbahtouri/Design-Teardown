@@ -38,7 +38,7 @@ From your command line, first clone the project:
 $ git clone https://github.com/rida-elbahtouri/Design-Teardown.git
 
 # Go into the repository
-$ cd nyt
+$ cd Design-Teardown
 
 ```
 
