@@ -35,7 +35,7 @@ From your command line, first clone the project:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/paulzay/nyt
+$ git clone https://github.com/rida-elbahtouri/Design-Teardown.git
 
 # Go into the repository
 $ cd nyt
