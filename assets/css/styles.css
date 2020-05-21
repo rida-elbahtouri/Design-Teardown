@@ -75,7 +75,6 @@ nav > div {
 
 .nav-middle {
   text-align: center;
-  display: inline-block;
   margin-left: 5%;
   float: left;
   margin-top: 30px;
@@ -473,6 +472,8 @@ footer p:last-of-type {
 .release-poster {
   text-align: center;
   border: 5px solid grey;
+  margin: 0 auto;
+  background-color: rgb(112, 112, 112);
 }
 
 .release-poster h1 {
