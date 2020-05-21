@@ -20,9 +20,6 @@ p {
 }
 
 nav {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
   background-color: rgb(42, 42, 42);
   height: 120px;
 }
@@ -74,20 +71,39 @@ nav > div {
   padding: 10px;
 }
 
+.nav-left {
+  float: left;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.nav-middle {
+  text-align: center;
+  display: inline-block;
+  margin-left: 400px;
+  margin-top: 30px;
+}
+
+.nav-middle > div {
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-right {
+  float: right;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
 .logo-text p {
   font-size: 18px;
   margin-top: -7px;
   font-weight: 80;
 }
 
-.form-search {
-  position: relative;
-}
-
 .input-search {
-  display: inline-block;
   width: 240px;
-  height: 50px;
+  height: 40px;
   border-radius: 10px;
   padding-left: 40px;
 }
@@ -300,6 +316,31 @@ section {
 }
 
 .person-week {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.square {
+  margin:0 80px;
+  width: 260px;
+  height: 260px;
+}
+
+.about-person {
+  margin: 20px auto;
+  flex: 3;
+  padding: 70px;
+}
+
+.about-person h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.about-person p {
+  font-size: 24px;
+  line-height: 1.3;
 }
 
 .singing {
